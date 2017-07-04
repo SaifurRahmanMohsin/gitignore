@@ -19,6 +19,9 @@
 .idea/**/gradle.xml
 .idea/**/libraries
 
+# CMake
+cmake-build-debug/
+
 # Mongo Explorer plugin:
 .idea/**/mongoSettings.xml
 
@@ -35,6 +38,9 @@
 
 # JIRA plugin
 atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
