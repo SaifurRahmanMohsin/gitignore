@@ -6,6 +6,9 @@
 .idea/**/tasks.xml
 .idea/dictionaries
 
+# Keystore password file
+keystore.properties
+
 # Sensitive or high-churn files:
 .idea/**/dataSources/
 .idea/**/dataSources.ids
