@@ -1,0 +1,49 @@
+# macOS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Core
+bootstrap/
+config/
+modules/
+storage/
+artisan
+index.php
+.htaccess
+
+# Plugins and Themes
+themes/*
+plugins/*
+
+# Vendor files
+vendor/
+
+# Log Files
+*.log
+
+# Selenium
+selenium.php
+
+# Composer
+composer.lock
+
+# Sensitive files:
+.env
+.env.*.php
+.env.php
+
+# Plugin-specific files:
+# Static Pages plugin
+themes/*/content/static-pages/
+
+# Theme Metadata
+themes/*/meta/
+
+# CodeKit
+themes/*/config.codekit
+themes/*/assets/sass/.sass-cache/*
