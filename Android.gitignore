@@ -21,15 +21,6 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-# macOS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
 # Built application files
 *.apk
 *.ap_
