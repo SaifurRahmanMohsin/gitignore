@@ -1,12 +1,3 @@
-# macOS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
 # Core
 bootstrap/
 config/
@@ -32,18 +23,26 @@ selenium.php
 # Composer
 composer.lock
 
-# Sensitive files:
+# Sensitive files
 .env
 .env.*.php
 .env.php
 
-# Plugin-specific files:
+# Storage files
+public/storage
+public/hot
+storage/*.key
+storage/
+
+# Generated Components folder
+public/components/*
+
+# Misc
+node_modules/
+
+# Plugin-specific files
 # Static Pages plugin
 themes/*/content/static-pages/
 
 # Theme Metadata
 themes/*/meta/
-
-# CodeKit
-themes/*/config.codekit
-themes/*/assets/sass/.sass-cache/*
