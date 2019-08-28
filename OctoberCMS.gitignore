@@ -2,7 +2,6 @@
 bootstrap/
 config/
 modules/
-storage/
 artisan
 index.php
 server.php
