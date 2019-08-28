@@ -5,11 +5,8 @@ modules/
 storage/
 artisan
 index.php
+server.php
 .htaccess
-
-# Plugins and Themes
-themes/*
-plugins/*/*
 
 # Vendor files
 vendor/
@@ -17,30 +14,27 @@ vendor/
 # Log Files
 *.log
 
-# Selenium
-selenium.php
-
-# Composer
-composer.lock
-
 # Sensitive files
 .env
 .env.*.php
 .env.php
 
 # Storage files
-public/storage
-public/hot
 storage/*.key
-storage/
-
-# Generated Components folder
-public/components/*
+storage/cms/*
+storage/temp
+storage/logs
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
 
 # Misc
 node_modules/
 
-# Plugin-specific files
+# Plugins and Themes
+themes/*
+plugins/**
+
 # Static Pages plugin
 themes/*/content/static-pages/
 
